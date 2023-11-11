@@ -17,7 +17,7 @@ public class MP3Player extends Mobile {
         System.out.println("Type: " + super.getType().getText() + "\n" +
                 "Color: " + super.getColor().getText() + "\n" +
                 "Screen size: " + super.getScreenSize() + "\"\n" +
-                "Memory: " + super.getScreenSize() + "GB\n" +
+                "Memory: " + super.getMemorySize() + "GB\n" +
                 "Hours of playing: " + hoursOfPlay);
     }
 }
